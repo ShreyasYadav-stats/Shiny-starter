@@ -40,6 +40,7 @@ What this app demonstrates
 
 See `docs/getting_started.Rmd` for a guided walkthrough.
 
+```
 shiny-starter/
 ├── app/ # Main Shiny application
 │ ├── app.R # UI and server logic
@@ -48,3 +49,4 @@ shiny-starter/
 │
 ├── docs/ # Learning material and walkthrough
 └── run_app.R # Entry point to run the app
+```
