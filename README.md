@@ -14,9 +14,9 @@ You do not need prior Shiny knowledge to get started.
 
 1. Open the project in RStudio
 2. Install required packages if needed:
-   ```r
-   install.packages("shiny")
-   ```
+```r
+install.packages("shiny")
+```
 3. Run:
 ```r
 source("run_app.R")
@@ -38,4 +38,13 @@ What this app demonstrates
 -Reactive expressions
 -Clean and readable structure
 
-See 'docs/getting_started.Rmd' for a guided walkthrough.
+See `docs/getting_started.Rmd` for a guided walkthrough.
+
+shiny-starter/
+├── app/ # Main Shiny application
+│ ├── app.R # UI and server logic
+│ ├── R/ # Helper functions and modules
+│ └── www/ # CSS, images, static files
+│
+├── docs/ # Learning material and walkthrough
+└── run_app.R # Entry point to run the app
