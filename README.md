@@ -24,22 +24,6 @@ source("run_app.R")
 
 ## Repository Structure
 
-app/        # Main Shiny application
-  app.R     # UI and server
-  R/        # Helper functions and modules
-  www/      # CSS and images
-
-docs/       # Learning material and walkthrough
-run_app.R   # Entry point to run the app
-
-What this app demonstrates
--Basic UI layout
--Inputs and outputs
--Reactive expressions
--Clean and readable structure
-
-See `docs/getting_started.Rmd` for a guided walkthrough.
-
 ```
 shiny-starter/
 ├── app/ # Main Shiny application
@@ -50,3 +34,12 @@ shiny-starter/
 ├── docs/ # Learning material and walkthrough
 └── run_app.R # Entry point to run the app
 ```
+
+What this app demonstrates
+- Basic UI layout
+- Inputs and outputs
+- Reactive expressions
+- Clean and readable structure
+
+See `docs/getting_started.Rmd` for a guided walkthrough.
+
